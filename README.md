@@ -6,5 +6,21 @@ Here is the vim configuration that I use. This is a work in progress and will be
 
 ## Install locally
 
-Install instructions coming soon...
+Clone the repo
+
+```bash
+$ git clone https://github.com/Shane325/vim.git ~/.vim
+```
+
+Create symlink
+
+```bash
+$ ln -s ~/.vim/.vimrc ~/.vimrc
+```
+
+
+## Plugins
+
+List of available plugins coming soon...
+
 
