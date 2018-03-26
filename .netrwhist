@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/shanebarry'
+let g:netrw_dirhist_2='/Users'
+let g:netrw_dirhist_3='/'
+let g:netrw_dirhist_4='/Users/shanebarry/Documents/repos'
+let g:netrw_dirhist_5='/Users/shanebarry/Documents/repos/BuildEasy-v2-mean'
