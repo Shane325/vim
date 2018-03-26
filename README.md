@@ -1,4 +1,4 @@
-![VIM](https://cdn.rawgit.com/ferventcoder/chocolatey-packages/051355942d87497067ed02c1ecce9a293a9f0a63/icons/vim.svg)
+![VIM](https://cdn.rawgit.com/ferventcoder/chocolatey-packages/051355942d87497067ed02c1ecce9a293a9f0a63/icons/vim.svg =100x100)
 
 # Shane Barry's Vim Configuration
 
