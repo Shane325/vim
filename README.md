@@ -40,7 +40,8 @@ $ git submodule update
 - [jsbeautify](https://github.com/maksimr/vim-jsbeautify)
 - [lightline](https://github.com/itchyny/lightline.vim)
 - [markdown](https://github.com/plasticboy/vim-markdown)
-- [MatchTagAlways](https://github.com/vim-ide/matchtagalways)
+- [MatchTag](https://github.com/gregsexton/MatchTag.git)
 - [nerdtree](https://github.com/scrooloose/nerdtree)
 - [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
 - [nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight)
+    
