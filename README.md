@@ -18,9 +18,29 @@ Create symlink
 $ ln -s ~/.vim/.vimrc ~/.vimrc
 ```
 
+Initialize and update git submodules
+
+```bash
+$ cd ~/.vim
+$ git submodule init
+$ git submodule update
+```
+
 
 ## Plugins
 
-List of available plugins coming soon...
-
-
+- [closetag](https://github.com/alvan/vim-closetag)
+- [colors-solarized](https://github.com/altercation/vim-colors-solarized)
+- [colorschemes](https://github.com/flazz/vim-colorschemes)
+- [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
+- [deus](https://github.com/ajmwagar/vim-deus)
+- [devicons](https://github.com/ryanoasis/vim-devicons)
+- [indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
+- [javascript](https://github.com/pangloss/vim-javascript)
+- [jsbeautify](https://github.com/maksimr/vim-jsbeautify)
+- [lightline](https://github.com/itchyny/lightline.vim)
+- [markdown](https://github.com/plasticboy/vim-markdown)
+- [MatchTagAlways](https://github.com/vim-ide/matchtagalways)
+- [nerdtree](https://github.com/scrooloose/nerdtree)
+- [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
+- [nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight)
