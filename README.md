@@ -44,4 +44,9 @@ $ git submodule update
 - [nerdtree](https://github.com/scrooloose/nerdtree)
 - [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
 - [nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight)
-    
+- [typescript](https://github.com/leafgarland/typescript-vim.git)
+- [tsuquyomi](https://github.com/Quramy/tsuquyomi.git)   
+- [vimproc](https://github.com/Shougo/vimproc.vim.git)   
+- [YouCompleteMe](https://github.com/Valloric/YouCompleteMe.git) 
+
+

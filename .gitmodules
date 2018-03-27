@@ -43,3 +43,15 @@
 [submodule "bundle/nerdtree-syntax-highlight"]
 	path = bundle/nerdtree-syntax-highlight
 	url = https://github.com/tiagofumo/vim-nerdtree-syntax-highlight.git
+[submodule "bundle/typescript"]
+	path = bundle/typescript
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "bundle/tsuquyomi"]
+	path = bundle/tsuquyomi
+	url = https://github.com/Quramy/tsuquyomi.git
+[submodule "bundle/vimproc"]
+	path = bundle/vimproc
+	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
