@@ -26,7 +26,6 @@ $ git submodule init
 $ git submodule update
 ```
 
-
 ## Plugins
 
 - [closetag](https://github.com/alvan/vim-closetag)
@@ -48,5 +47,7 @@ $ git submodule update
 - [tsuquyomi](https://github.com/Quramy/tsuquyomi.git)   
 - [vimproc](https://github.com/Shougo/vimproc.vim.git)   
 - [YouCompleteMe](https://github.com/Valloric/YouCompleteMe.git) 
+
+    You must complete the YouCompleteMe install by following the instructions [here](https://github.com/Valloric/YouCompleteMe#mac-os-x)
 
 
