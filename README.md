@@ -2,9 +2,22 @@
 
 # Shane Barry's Vim Configuration
 
-Here is the vim configuration that I use. This is a work in progress and will be tweaked and changed.
+Here is the vim configuration that I use. This is a work in progress and will be tweaked and changed. This makes it convenient to have the same Vim configuration across multiple development machines.
+
+The plugin manager I use is [Pathogen](https://www.vim.org/scripts/script.php?script_id=2332). You can learn more about Pathogen and install it [here](https://github.com/tpope/vim-pathogen).
 
 ## Install locally
+
+Install Pathogen
+
+Install to ~/.vim/autoload/pathogen.vim. Or copy and paste the following into your terminal/shell:
+
+```bash
+$ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+$ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
+
+If you're using Windows, change all occurrences of ~/.vim to ~\vimfiles.
 
 Clone the repo
 
@@ -37,6 +50,9 @@ $ git submodule update
 - [indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
 - [javascript](https://github.com/pangloss/vim-javascript)
 - [jsbeautify](https://github.com/maksimr/vim-jsbeautify)
+
+    Complete the jsbeautify install by following the instructions [here](https://github.com/maksimr/vim-jsbeautify#installing-using-pathogen)
+
 - [lightline](https://github.com/itchyny/lightline.vim)
 - [markdown](https://github.com/plasticboy/vim-markdown)
 - [MatchTag](https://github.com/gregsexton/MatchTag.git)
