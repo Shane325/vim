@@ -8,7 +8,7 @@ The plugin manager I use is [Pathogen](https://www.vim.org/scripts/script.php?sc
 
 ## Install locally
 
-Install Pathogen
+**Install Pathogen**
 
 Install to ~/.vim/autoload/pathogen.vim. Or copy and paste the following into your terminal/shell:
 
@@ -19,19 +19,19 @@ $ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 If you're using Windows, change all occurrences of ~/.vim to ~\vimfiles.
 
-Clone the repo
+**Clone the repo**
 
 ```bash
 $ git clone https://github.com/Shane325/vim.git ~/.vim
 ```
 
-Create symlink
+**Create symlink**
 
 ```bash
 $ ln -s ~/.vim/.vimrc ~/.vimrc
 ```
 
-Initialize and update git submodules
+**Initialize and update git submodules**
 
 ```bash
 $ cd ~/.vim
@@ -40,6 +40,8 @@ $ git submodule update
 ```
 
 ## Plugins
+
+Here are the vim plugins that I like to use:
 
 - [closetag](https://github.com/alvan/vim-closetag)
 - [colors-solarized](https://github.com/altercation/vim-colors-solarized)
