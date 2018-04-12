@@ -12,14 +12,14 @@ I am using `git submodules` to keep all plugins synchronized. Watch [this](http:
 
 **Install Pathogen**
 
-Install to ~/.vim/autoload/pathogen.vim. Or copy and paste the following into your terminal/shell:
+Install to '~/.vim/autoload/pathogen.vim'. Or copy and paste the following into your terminal/shell:
 
 ```bash
 $ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 $ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
-If you're using Windows, change all occurrences of ~/.vim to ~\vimfiles.
+If you're using Windows, change all occurrences of `~/.vim` to `~\vimfiles`.
 
 **Clone the repo**
 
