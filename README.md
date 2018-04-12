@@ -47,7 +47,7 @@ Here are the vim plugins that are included in this repo:
 
 - [ale](https://github.com/w0rp/ale)
 
-    Manage the Ale configuration in .vimrc file. It is currently set up to [lint on save](https://standardjs.com/#vim). Using [Standard](https://standardjs.com/) as linting library. Install babel-eslint globally for this to work.
+    Manage the Ale configuration in the `.vimrc` file. It is currently set up to [lint on save](https://standardjs.com/#vim). Using [Standard](https://standardjs.com/) as linting library. Install [babel-eslint](https://github.com/babel/babel-eslint) globally for this to work.
 
 - [closetag](https://github.com/alvan/vim-closetag)
 - [colors-solarized](https://github.com/altercation/vim-colors-solarized)
