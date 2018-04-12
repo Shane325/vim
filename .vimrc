@@ -131,3 +131,7 @@ let g:NERDTreePatternMatchHighlightFullName = 1
 " Make typescript compiler appear automatically
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
+
+" Enable Ale automatic formatting on save
+autocmd bufwritepost *.js silent !standard --fix %
+set autoread

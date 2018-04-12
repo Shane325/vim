@@ -6,6 +6,8 @@ Here is the vim configuration that I use. This is a work in progress and will be
 
 The plugin manager I use is [Pathogen](https://www.vim.org/scripts/script.php?script_id=2332). You can learn more about Pathogen and install it [here](https://github.com/tpope/vim-pathogen).
 
+I am using `git submodules` to keep all plugins synchronized. Watch [this](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/) video to learn how Pathogen works with `git submodules`.
+
 ## Install locally
 
 **Install Pathogen**
@@ -41,7 +43,11 @@ $ git submodule update
 
 ## Plugins
 
-Here are the vim plugins that I like to use:
+Here are the vim plugins that are included in this repo:
+
+- [ale](https://github.com/w0rp/ale)
+
+    Manage the Ale configuration in .vimrc file. It is currently set up to [lint on save](https://standardjs.com/#vim). Using [Standard](https://standardjs.com/) as linting library. Install babel-eslint globally for this to work.
 
 - [closetag](https://github.com/alvan/vim-closetag)
 - [colors-solarized](https://github.com/altercation/vim-colors-solarized)
@@ -68,4 +74,19 @@ Here are the vim plugins that I like to use:
 
     You must complete the YouCompleteMe install by following the instructions [here](https://github.com/Valloric/YouCompleteMe#mac-os-x)
 
+## Installing a plugin
 
+To install a new plugin run
+
+```bash
+$ cd ~/.vim/bundle
+$ git submodule add <git-url> <name>
+```
+
+This will install the plugin in `bundle/<name>` and also update the `.gitmodules` file.
+
+Run this command to update the git submodules
+
+```bash
+$ git submodule update
+```
