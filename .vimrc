@@ -135,3 +135,6 @@ autocmd QuickFixCmdPost    l* nested lwindow
 " Enable Ale automatic formatting on save
 autocmd bufwritepost *.js silent !standard --fix %
 set autoread
+
+" Enable ejs support
+au BufNewFile,BufRead *.ejs set filetype=html
